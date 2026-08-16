@@ -1,16 +1,53 @@
-# React + Vite
+# JobTrack 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern job application tracking dashboard built with React.js.
 
-Currently, two official plugins are available:
+## 📌 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+JobTrack helps users organize and track their job applications from a single dashboard.
 
-## React Compiler
+Users can add, edit, delete, search and filter applications, manage applications through a Kanban board and analyze their job search performance through interactive charts.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔐 Frontend login/logout experience
+- 📊 Dashboard statistics
+- 💼 Job application management
+- ➕ Add applications
+- ✏️ Edit applications
+- 🗑️ Delete applications
+- 🔎 Search applications
+- 🔽 Filter applications by status
+- ↕️ Sort applications by date
+- 📋 Kanban job pipeline
+- 🖱️ Drag and drop application management
+- 📈 Interactive analytics
+- 🌙 Dark mode
+- 💾 LocalStorage persistence
+- 📱 Responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Recharts
+- LocalStorage
+- Vite
+- Git
+- GitHub
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Analytics.jsx
+│   ├── KanbanBoard.jsx
+│   └── Login.jsx
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
